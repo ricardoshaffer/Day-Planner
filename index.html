@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque|Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron jumbotron-fluid">
+        <h1 class="display-4"><span id="todaysDate"></span></h1>
+        <h2>to-do list</h2>
+    </div>
+    <div class="input-group mb-3" id="9">
+        <div class="input-group-prepend">
+        <div class="input-group-text"><i class="fas fa-hourglass-start"> </i>9 AM</div>
+        </div>
+        <textarea class="form-control" id="input-9" placeholder="Your to-do at 9 AM" aria-label="Your to-do at 9 AM" aria-describedby="Your to-do at 9 AM"></textarea>
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary btnSave" type="button">Save</button>
+          <button class="btn btn-outline-secondary isdone" value="" id="done-9" aria-label="check if your 9AM activity is done" type="button">Done</button>
+        </div>
+    </div>
+    <div class="input-group mb-3" id="10">
+        <div class="input-group-prepend">
+            <div class="input-group-text">10 AM</div>
+        </div>
+        <textarea class="form-control" id="input-10" placeholder="Your to-do at 10 AM" aria-label="Your to-do at 10 AM" aria-describedby="Your to-do at 10 AM"></textarea>
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary btnSave" type="button">Save</button>
+          <button class="btn btn-outline-secondary isdone" id="done-10" value="" aria-label="check if your 10AM activity is done" type="button">Done</button>
+        </div>
+    </div>
+    <div class="input-group mb-3" id="11">
+        <div class="input-group-prepend">
+            <div class="input-group-text">11 AM</div>
+        </div>
+        <textarea class="form-control" id="input-11" placeholder="Your to-do at 11 AM" aria-label="Your to-do at 11 AM" aria-describedby="Your to-do at 11 AM"></textarea>
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary btnSave" type="button">Save</button>
+          <button class="btn btn-outline-secondary isdone" id="done-11"  aria-label="check if your 11AM activity is done" type="button">Done</button>
+        </div>
+    </div>
+    <div class="input-group mb-3" id="12">
+        <div class="input-group-prepend">
+            <div class="input-group-text"><i class="fas fa-hourglass-half"></i>  Noon</div>
+        </div>
+        <textarea class="form-control" id="input-12" placeholder="Your to-do at Noon (12PM)" aria-label="Your to-do at Noon (12PM)" aria-describedby="Your to-do at Noon (12PM)"></textarea>
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary btnSave" type="button">Save</button>
+          <button class="btn btn-outline-secondary isdone" id="done-12" value="" aria-label="check if your 12PM activity is done" type="button">Done</button>
+        </div>
+    </div>
+    <div class="input-group mb-3" id="13">
+        <div class="input-group-prepend">
+            <div class="input-group-text">1 PM</div>
+        </div>
+        <textarea class="form-control" id="input-13" placeholder="Your to-do at 1 PM" aria-label="Your to-do at 1 PM" aria-describedby="Your to-do at 1 PM"></textarea>
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary btnSave" type="button">Save</button>
+          <button class="btn btn-outline-secondary isdone" id="done-13" value="" aria-label="check if your 1PM activity is done" type="button">Done</button>
+        </div>
+    </div>
+    <div class="input-group mb-3" id="14">
+        <div class="input-group-prepend">
+            <div class="input-group-text">2 PM</div>
+        </div>
+        <textarea class="form-control" id="input-14" placeholder="Your to-do at 2 PM" aria-label="Your to-do at 2 PM" aria-describedby="Your to-do at 2 PM"></textarea>
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary btnSave" type="button">Save</button>
+          <button class="btn btn-outline-secondary isdone" id="done-14" value="" aria-label="check if your 2PM activity is done" type="button">Done</button>
+        </div>
+    </div>
+    <div class="input-group mb-3" id="15">
+        <div class="input-group-prepend">
+            <div class="input-group-text"><i class="fas fa-hourglass-end"></i> 3 PM</div>
+        </div>
+        <textarea class="form-control" id="input-15" placeholder="Your to-do at 3 PM" aria-label="Your to-do at 3 PM" aria-describedby="Your to-do at 3 PM"></textarea>
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary btnSave" type="button">Save</button>
+          <button class="btn btn-outline-secondary isdone" id="done-15" value="" aria-label="check if your 3PM activity is done" type="button">Done</button>
+        </div>
+    </div>
+    <div class="input-group mb-3" id="16">
+        <div class="input-group-prepend">
+            <div class="input-group-text">4 PM</div>
+        </div>
+        <textarea class="form-control" id="input-16" placeholder="Your to-do at 4 PM" aria-label="Your to-do at 4 PM" aria-describedby="Your to-do at 4 PM"></textarea>
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary btnSave" type="button">Save</button>
+          <button class="btn btn-outline-secondary isdone" id="done-16" value="" aria-label="check if your 4PM activity is done" type="button">Done</button>
+        </div>
+    </div>
+    <div class="input-group mb-3" id="17">
+        <div class="input-group-prepend">
+            <div class="input-group-text">5 PM</div>
+        </div>
+        <textarea class="form-control" id="input-17" placeholder="Your to-do at 5 PM" aria-label="Your to-do at 5 PM" aria-describedby="Your to-do at 5 PM"></textarea>
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary btnSave" type="button">Save</button>
+          <button class="btn btn-outline-secondary isdone" id="done-17" value="" aria-label="check if your 5PM activity is done" type="button">Done</button>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="assets/script.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,58 @@
+body{
+    font-family: 'Darker Grotesque', Arial, Helvetica, sans-serif;
+    /* background-image: linear-gradient(rgb(250, 255, 182), rgb(233, 196, 255)); */
+}
+.btn-outline-secondary {
+    background-color: #352bc9;
+    color: #ffffff;
+}
+.container{
+    margin-top: 100px;
+}
+.input-group-text {
+    width: 100px;
+    align-content: center;
+}
+.input-group-text {
+    background-color: #352bc9;
+    color: #fff;
+}
+.fas {
+    text-align: left !important;
+}
+
+.jumbotron {
+    /* background-image: linear-gradient(rgba(167, 23, 90, 1.0), rgba(255, 71, 65, 1.0)); */
+    background-color: #352bc9;
+    border-radius: 5vw;
+    border: solid 2px #fff;
+    color: #fff;
+    margin: 1em !important;
+    text-align: center;
+    font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 1vw #19095f;
+
+}
+.currently {
+ border: solid 3px rgb(252, 255, 98);
+ box-shadow: 0 4px 4px 0 rgba(255, 253, 126, 0.589), 0 0px 20px 0 rgba(255, 132, 153, 0.842);
+ background-image:linear-gradient(rgb(250, 255, 182), rgb(233, 196, 255));
+}
+.done{
+    background-color :#2b3bc9;
+    color: white;
+}
+.undone{
+    background-color: rgb(255, 188, 111);
+    color: rgb(214, 0, 0);
+}
+.previously {
+    color: rgb(66, 66, 66);
+    background-color: rgb(166, 185, 226) !important;
+   }
+.previously .input-group-text {
+    background-color: rgb(166, 185, 226);
+}
+.previously .btn {
+    background-color: rgb(166, 185, 226);
+}
