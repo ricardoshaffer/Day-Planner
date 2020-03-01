@@ -19,6 +19,7 @@ _Contains the following files/folders_
 *   Wireframe structure, buttons, and responsiveness developed using **Bootstrap**, https://GetBootstrap.com, version 4.4.1.
 *   font used by https://fonts.google.com.
 *   Time functions provided by https://momentjs.com, used in accordance with MIT License sharing.
+*   Utilized FontAwesome.com for hourglass icons: start, half way, and end.
 
 
 
