@@ -43,16 +43,11 @@ body{
     color: white;
 }
 .undone{
-    background-color: rgb(255, 188, 111);
-    color: rgb(214, 0, 0);
+    background-color: rgb(255, 100, 95);
+    color: rgb(255, 180, 180);
 }
-.previously {
-    color: rgb(66, 66, 66);
-    background-color: rgb(166, 185, 226) !important;
-   }
+
 .previously .input-group-text {
-    background-color: rgb(166, 185, 226);
+    background-color: rgb(126, 126, 126);
 }
-.previously .btn {
-    background-color: rgb(166, 185, 226);
-}
+

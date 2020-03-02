@@ -50,7 +50,7 @@ $(document).ready(function() {
             $(doneID).attr("value","done");
        }else{
                $(doneID).attr("value", "undone");
-               $(doneID).attr("class", "undone");
+               $(doneID).attr("class", "btn btn-outline-secondary undone");
             }
             let finishedEvent = $(doneID).val();
         console.log("DONE?to-do description: " + finishedEvent);
@@ -63,11 +63,11 @@ $(document).ready(function() {
                 let doneMet = localStorage.getItem("tdone-"+[loadedClicks]+(moment().format("MMM"+"Do")));
                 let doneID= ("#done-" + loadedClicks);
                 if(doneMet === "done" || doneMet === "undone"){
-                    $(doneID).attr("class",doneMet);
+                    $(doneID).attr("class","btn btn-outline-secondary "+ doneMet);
                     $(doneID).text(doneMet);
                 }else{
                     $(doneID).text("undone");
-                    $(doneID).attr("class", "undone");
+                    $(doneID).attr("class", "btn btn-outline-secondary undone");
                 }}
     })
     // reloads the content that was previously saved when the page is loaded.
@@ -75,11 +75,11 @@ $(document).ready(function() {
         let doneMet = localStorage.getItem("tdone-"+[loadedClicks]+(moment().format("MMM"+"Do")));
         let doneID= ("#done-" + loadedClicks);
         if(doneMet === "done" || doneMet === "undone"){
-            $(doneID).attr("class",doneMet);
+            $(doneID).attr("class","btn btn-outline-secondary "+ doneMet);
             $(doneID).text(doneMet);
         }else{
             $(doneID).text("undone");
-            $(doneID).attr("class", "undone");
+            $(doneID).attr("class", "btn btn-outline-secondary undone");
         }
         }
 
