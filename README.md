@@ -5,6 +5,8 @@ _Contains the following files/folders_
 *   **Assets**: .js file containing objects & functions for to-do to locally store the input & time functions.
 *   **CSS**: contains files to render appearance.
 
+## Deployment
+*   Deployed using GitHub Pages: https://ricardoshaffer.github.io/Day-Planner/
 ## Architecture
 **_Wireframe_**
 *   Minimal responsive design with head, body, & footer.  Timer is visible on each page.
